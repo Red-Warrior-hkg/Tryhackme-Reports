@@ -2,33 +2,14 @@
 
 # 🥒 Pickle Rick — CTF Writeup
 
-<br/>
+> 🧪 A structured penetration testing walkthrough of the **Pickle Rick** CTF room on TryHackMe —
 
-[!\[Platform](https://img.shields.io/badge/Platform-TryHackMe-212C42?style=for-the-badge\&logo=tryhackme\&logoColor=white)](https://tryhackme.com/room/picklerick)
-[!\[License](https://img.shields.io/badge/License-Educational-22c55e?style=for-the-badge\&logo=bookstack\&logoColor=white)](#)
-[!\[Status](https://img.shields.io/badge/Status-Completed-a3e635?style=for-the-badge\&logo=checkmarx\&logoColor=white)](#)
-[!\[Difficulty](https://img.shields.io/badge/Difficulty-Easy-f59e0b?style=for-the-badge\&logo=condaforge\&logoColor=white)](#)
-[!\[Issued by](https://img.shields.io/badge/Issued%20by-RedWarrior-dc2626?style=for-the-badge\&logo=hackthebox\&logoColor=white)](#)
+> covering **enumeration**, **web exploitation**, and **privilege escalation** from zero to root.
 
-<br/>
 
-[!\[Stars](https://img.shields.io/github/stars/<your-username>/<repo-name>?style=social)](https://github.com/<your-username>/<repo-name>)
-[!\[Forks](https://img.shields.io/github/forks/<your-username>/<repo-name>?style=social)](https://github.com/<your-username>/<repo-name>/fork)
-
-<br/>
-
-> 🧪 A structured penetration testing walkthrough of the \*\*Pickle Rick\*\* CTF room on TryHackMe —
-> covering \*\*enumeration\*\*, \*\*web exploitation\*\*, and \*\*privilege escalation\*\* from zero to root.
-
-<br/>
-
-\---
-
-📄 **Want the full detailed report?**
-
-### [**👉 Click Here to View the Full Report**](#) *(replace `#` with your report URL)*
-
-\---
+---
+### [**👉 Click Here to View the Full Report**](https://github.com/Red-Warrior-hkg/Tryhackme-Reports/blob/main/PickleRick/PickleRick_CTF_Report.pdf)
+---
 
 </div>
 
@@ -48,11 +29,10 @@ Reconnaissance  →  Enumeration  →  Exploitation  →  Privilege Escalation  
 |🌐 **Target IP**|`10.130.165.180`|
 |🏆 **Points Earned**|`90`|
 |🔑 **Flags Found**|`3 / 3`|
-|👤 **Author**|vhmedx10|
 |🏷️ **Issued by**|RedWarrior|
 |📅 **Date**|April 13 – 14, 2026|
 
-\---
+---
 
 ## 🎯 Objectives
 
@@ -61,7 +41,7 @@ Reconnaissance  →  Enumeration  →  Exploitation  →  Privilege Escalation  
 * ⚡ Demonstrate privilege escalation via `sudo` misconfiguration
 * 📝 Produce a structured, professional CTF writeup
 
-\---
+---
 
 ## 🚩 Flags Captured
 
@@ -71,7 +51,7 @@ Reconnaissance  →  Enumeration  →  Exploitation  →  Privilege Escalation  
 |🟡 **Flag 2**|`/home/rick/second ingredients`|`1 jerry tear`|
 |🔴 **Flag 3**|`/root/3rd.txt`|`fleeb juice`|
 
-\---
+---
 
 ## 📚 Quick Reference — Commands
 
@@ -108,7 +88,7 @@ sudo ls -la /root
 sudo less /root/3rd.txt
 ```
 
-\---
+---
 
 ## ⚙️ Attack Flow
 
@@ -138,7 +118,7 @@ sudo less /root/3rd.txt
               └─────────────────┘
 ```
 
-\---
+---
 
 ## ⚠️ Key Vulnerabilities Found
 
@@ -149,29 +129,16 @@ sudo less /root/3rd.txt
 |🔴 Unauthenticated OS command panel|`portal.php`|**Critical**|
 |🔴 `sudo NOPASSWD: ALL` misconfiguration|`/etc/sudoers`|**Critical**|
 
-\---
-
-## 🔮 Future Improvements
-
-* \[ ] Automate recon script for similar CTF rooms
-* \[ ] Include reverse shell escalation as an alternative path
-* \[ ] Add CVSS scores for each vulnerability
-
-\---
+---
 
 ## ⭐ Support
 
 <div align="center">
 
 If this writeup helped you — show some love!
+---
 
-[!\[Star](https://img.shields.io/badge/⭐%20Star%20this%20Repo-a3e635?style=for-the-badge)](https://github.com/<your-username>/<repo-name>)
-[!\[Share](https://img.shields.io/badge/📢%20Share%20It-f59e0b?style=for-the-badge)](#)
-[!\[TryHackMe](https://img.shields.io/badge/🧠%20Follow%20on%20TryHackMe-212C42?style=for-the-badge)](https://tryhackme.com/p/vhmedx10)
-
-<br/>
-
-> 📌 \*\*Issued by RedWarrior\*\* — Educational use only.
+> 📌 **Issued by RedWarrior** — Educational use only.
 > This writeup is intended strictly for learning purposes within authorized CTF environments.
 
 </div>
