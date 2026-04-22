@@ -1,14 +1,12 @@
-\# Letter — TryHackMe Writeup
+# Letter — TryHackMe Writeup
+
+> A writeup for the **Letter** OSINT room on TryHackMe.
+---
+### [**👉 Click Here to View the Full Report**](https://github.com/Red-Warrior-hkg/Tryhackme-Reports/blob/main/letter/Letter_CTF_Report.pdf)
+---
 
 
-
-A writeup for the \*\*Letter\*\* OSINT room on TryHackMe.
-
-
-
-\## What is this?
-
-
+## What is this?
 
 A PDF report that walks through how I solved the Letter room.  
 
@@ -17,30 +15,19 @@ The room gives you a letter envelope, an old newspaper clipping, and a French te
 You have to find a postal code and a person's full name and age.
 
 
+## Room Info
 
+- **Platform:** TryHackMe
 
+- **Room:** Letter
 
-\## Room Info
+- **Category:** OSINT
 
+- **Points:** 60
 
+- **Status:** Completed
 
-\- \*\*Platform:\*\* TryHackMe
+## Author
 
-\- \*\*Room:\*\* Letter
-
-\- \*\*Category:\*\* OSINT
-
-\- \*\*Points:\*\* 60
-
-\- \*\*Status:\*\* Completed
-
-
-
-
-
-\## Author
-
-
-
-\*\*RedWarrior\*\* — April 21, 2026
+#**RedWarrior** — April 21, 2026
 
