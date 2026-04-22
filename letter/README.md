@@ -29,5 +29,5 @@ You have to find a postal code and a person's full name and age.
 
 ## Author
 
-#**RedWarrior** — April 21, 2026
+**RedWarrior** — April 21, 2026
 
