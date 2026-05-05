@@ -3,7 +3,6 @@
 **Platform:** TryHackMe  
 **Room:** W1seGuy  
 **Category:** Cryptography  
-**Difficulty:** Easy  
 **Status:** Completed ✅
 
 ![Room Page](room_page.png)
