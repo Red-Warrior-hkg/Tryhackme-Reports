@@ -5,7 +5,7 @@
 **Category:** Cryptography  
 **Status:** Completed ✅
 
-![Room Page](room_page.png)
+![Room Page](images/room_page.png)
 
 ---
 
@@ -147,7 +147,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 ## Exploit Output
 
-![Exploit Output](exploit_output.png)
+![Exploit Output](images/exploit_output.png)
 
 The recovered key successfully decrypted Flag 1 and the server returned Flag 2 upon validation.
 
@@ -198,4 +198,4 @@ Server                                 Attacker
 
 ## Room Completion
 
-![Room Completed](room_completed.png)
+![Room Completed](images/room_completed.png)
