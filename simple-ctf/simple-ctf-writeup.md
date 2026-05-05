@@ -2,7 +2,6 @@
 
 **Platform:** TryHackMe  
 **Room:** Simple CTF  
-**Difficulty:** Easy  
 **Points Earned:** 300  
 
 ---
